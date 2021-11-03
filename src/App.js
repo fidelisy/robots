@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { robots } from './robots';
+import Navigation from './Navigation';
+import Footer from './footer';
+
 import './App.css';
 
 
@@ -29,9 +32,11 @@ class App extends Component {
         } else {
      return (
         <div className='tc'>
+            <Navigation/>
             <h1> Robofriends </h1>
             <SearchBox searchChange={this.onSearchChange}/>
             <CardList robots={filteredRobots}/>
+            <Footer/>
         </div>
         );
      }

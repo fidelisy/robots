@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+
+
+}
+.master {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding: 1% 0% 1% 0%;
+    background-color: rgb(181, 194, 204);
+    box-sizing: content-box;
+    border-radius: 6px;
+    bottom: 0;
+    width: 100%;
+    padding-left: 10px;
+
+  
+}
+
+
+.master li {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   letter-spacing: 1.24px;
+   
+
+}
